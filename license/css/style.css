@@ -1,0 +1,118 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license{
+    width: 700px;
+    height: 420px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: orange;
+    background-color:darkgoldenrod;
+}
+
+#content{
+    width: 650px;
+    height: 450px;
+    margin: 20px;
+    
+}
+h1{
+    color: rgb(3, 3, 192);
+    font-size: 55px;
+}
+h4{
+    background-color: rgb(3, 3, 192);;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+#id-and-expiration div {
+    display: inline-block;
+    margin-right: 20px; 
+    margin-top: -40px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 20px;
+    
+}
+#id-and-expiration span{
+    color: red;
+}
+#address{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+#personal-info{
+    margin-top: -20px;
+}
+#small-pic{
+    scale: .75;
+    opacity: 50%;
+    margin-left: -90px;
+    margin-top: -40px;
+}
+#data-fields {
+    margin-left: 110px;
+    margin-top: -110px;
+}
+#data-fields div{
+    color: blue
+}
+#data-fields span{
+    color: red
+}
+#data-right{
+    margin-left: 100px;
+    margin-top: -54px;
+}
+#signature span{
+    color: black;
+    margin-left: 60px;
+    margin-bottom: -30px;
+}
+
+
+
+#right-side{
+    margin-left: 406px;
+    margin-top: -275px;
+}
+
+#big{
+    height: 250px;
+    
+}
+
+#donor{
+    color: red;
+    font-size: 20px;
+
+}
+#real-id{
+    color: white;
+    margin-left: 50px;
+    background-color: gold;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+#donor-and-real-id{
+    display: flex;
+    width: 235px;
+    height: 40px;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+
+
