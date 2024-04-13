@@ -1,0 +1,71 @@
+/* COMMON PAGE LAYOUT SETUP CSS - START *****************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* preferred copy font goes here */
+    font-family: sans-serif; 
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    margin-left: -5px;
+}
+#header h1{
+    margin-top: -150px;
+}
+#logo{
+    width: 250px;
+}
+#rev{
+    width: 250px;
+}
+#rev1{
+    display: flex;
+    justify-content: space-between;
+}
+#s1{
+    margin-top: -225px;
+}
+#cars p{
+    width: 1100px;
+}
+
+#three-columns {
+   
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+#sidebar-content {
+    padding-right: 24px;
+    padding-left: 24px;
+    
+}
+#sidebar-content h2{
+    background-color: goldenrod;
+    margin-bottom: -19px;
+}
+#sidebar-content ul{
+    /* for the record you never said these links needed to be functional
+    */
+    border-color: black;
+    border-width: 1px;
+    border: solid;
+}
+
+#main-content {
+    background-color: white;
+    
+}
+#body1{
+    margin-top: -180px;
+    width: 1375px;
+}
+#man{
+    width: 200px;
+}
