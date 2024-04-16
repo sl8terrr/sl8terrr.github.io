@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+body {
+    background-color: #1f1f1f;
+    color: #EEEEEE;
+}
+#three-columns {
+    margin: 48px 0px;
+    display: grid;
+    grid-template-columns: 700px 1fr 250px ;
+    grid-template-areas: 
+        " left-sidebar main-area right-sidebar  ";
+}
+#column-1 {
+    margin-left: 24px;
+    grid-area: left-sidebar;
+}
+#column-2 {
+    padding: 24px 48px;
+    grid-area: main-area;
+}
+#column-3 {
+    margin-right: 24px;
+    grid-area: right-sidebar;
+}
+#three-columns h1 {
+    margin-top: 0px;
+}
+#three-columns h2 {
+    border-bottom: 2px solid #AAAAAA;
+    padding-bottom: 8px;
+}
+#three-columns ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#three-columns ul li {
+    padding: 4px 0px;
+}
+.sticky-sidebar {
+    position: sticky;
+    top: 24px;
+
+    background-color: #343434;
+    border-radius: 4px;
+    padding: 24px;
+}
+#buy{
+    margin: 20px;
+}
+#buy a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#cart{
+    margin: 20px;
+}
+#cart a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+#list{
+    margin: 20px;
+}
+#list a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#buy a:hover{
+    background-color: white;
+    color: black;
+}
+#cart a:hover{
+    background-color: black;
+    color: white;
+}
+#list a:hover{
+    background-color: white;
+    color: black;
+}
+
+#column-3 h4{
+color: black;
+background-color: white;
+}
