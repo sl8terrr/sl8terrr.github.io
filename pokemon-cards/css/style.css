@@ -1,0 +1,191 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3{
+    width: 350px;
+    background-color: rgb(255, 230, 0);
+    border: rgb(255, 208, 0);
+    border-style: solid;
+    border-width:15px ;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 5px 15px 0px 15px;
+    justify-content: center;
+}
+#pokemon-card-1{
+    background: linear-gradient(158deg, rgba(200,255,192,1) 0%, 
+    rgba(20,200,3,1) 47%, rgba(200,255,192,1) 100%);
+}
+#pokemon-card-2{
+    background: linear-gradient(158deg, rgba(200,255,192,1) 0%, 
+    rgba(20,200,3,1) 47%, rgba(200,255,192,1) 100%);
+}
+#pokemon-card-3{
+    background: linear-gradient(158deg, rgba(255,171,0,1) 0%, 
+    rgba(255,98,0,1) 47%, rgba(255,171,0,1) 100%);
+}
+#pokemon-card-4{
+    background: linear-gradient(158deg, rgba(0,255,231,1) 0%, 
+    rgba(0,168,255,1) 47%, rgba(0,255,231,1) 100%);
+}
+.card-style-3 img{
+    width: 290px;
+    justify-content: center;
+    border:rgb(226, 185, 1);
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -25px;
+}
+.card-style-3 h2{
+    font-size: 27px;
+}
+.pokemon-header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: -5px;
+}
+.health{ 
+    padding: 15px;
+    scale: 116%;
+    margin-right: -8px;
+}
+.details{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(190,169,0,1) 0%,
+     rgba(247,236,0,1) 47%, rgba(190,169,0,1) 100%);
+    font-weight:bold;
+    font-style: italic;
+}
+
+#pokemon-card-1 .attack {
+   display: grid;
+   grid-template-columns: 1fr 200px 1fr;
+   margin-top: 80px;
+   padding-bottom: 40px;
+   border-bottom: 2px solid black;
+}
+#pokemon-card-1 .description{
+    font-size: 15px;
+    margin-top: -30px;
+}
+#pokemon-card-1 .data{
+    border: 2px solid rgb(226, 185, 1);
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+#pokemon-card-1 .bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+#pokemon-card-1 .power{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#pokemon-card-2 .attack {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    margin-top: 80px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid black;
+ }
+ #pokemon-card-2 .description{
+     font-size: 15px;
+     margin-top: -20px;
+ }
+ #pokemon-card-2 .data{
+     border: 2px solid rgb(226, 185, 1);
+     font-size: 11px;
+     font-weight: bold;
+     margin-top: 10px;
+     padding: 0px 5px;
+ }
+ #pokemon-card-2 .bold{
+     font-weight: bold;
+     font-size: 20px;
+ }
+ #pokemon-card-2 .power{
+     font-weight: bolder;
+     font-size: 25px;
+     margin-top: -5px;
+ }
+
+ #pokemon-card-3 .attack {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    margin-top: 21px;
+    border-bottom: 2px solid black;
+    padding: 12px;
+ }
+ #pokemon-card-3 .description{
+     font-size: 15px;
+     text-align: center;
+ }
+ #ember .description{
+    margin-top: -20px;
+    text-align: left;
+    padding-bottom: 10px;
+ }
+ #pokemon-card-3 .data{
+     border: 2px solid rgb(226, 185, 1);
+     font-size: 11px;
+     font-weight: bold;
+     margin-top: 10px;
+     padding: 0px 5px;
+ }
+ #pokemon-card-3 .bold{
+     font-weight: bold;
+     font-size: 20px;
+ }
+ #pokemon-card-3 .power{
+     font-weight: bolder;
+     font-size: 25px;
+     margin-top: -5px;
+     padding-right: 40px;
+ }
+
+ #pokemon-card-4 .attack {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding: 12px;
+ }
+ #pokemon-card-4 .description{
+    font-size: 15px;
+    margin-top: -15px;
+}
+ #pokemon-card-4 .data{
+     border: 2px solid rgb(226, 185, 1);
+     font-size: 11px;
+     font-weight: bold;
+     margin-top: 10px;
+     padding: 0px 5px;
+ }
+ #pokemon-card-4 .bold{
+     font-weight: bold;
+     font-size: 20px;
+ }
+ #pokemon-card-4 .power{
+     font-weight: bolder;
+     font-size: 25px;
+     margin-top: -5px;
+     padding-right: 40px;
+ }
+
+.description{
+    font-size: 15px;
+    padding: 0px 5px;
+}
