@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero1 {
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148809724.jpg?w=1380&t=st=1713921642~exp=1713922242~hmac=9eb1e852ba301b15d508dd1017a6f439582a4fee1a6fb4c0fa63ba04996fffd4);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero1 .hero-content {
+    text-align: center;
+    color: black;
+}
+#hero1 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+#hero1 h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+#hero1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+}
+
+#hero2 {
+    background-image: url(https://img.freepik.com/free-photo/front-view-smiley-man-pointing-side_23-2148946252.jpg?t=st=1713922015~exp=1713925615~hmac=60b2e990ac9a73b367929b97e914c50aada923f8b0d53ffb37a79e5dbf38e38b&w=1380);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+#hero2 h2 {
+    font-size: 6vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+#hero2 h4 {
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero2 a {
+    font-size: 1vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero3 {
+    background-image: url(https://img.freepik.com/free-photo/top-view-colorful-hearts-table_23-2148569413.jpg?w=1380&t=st=1713922610~exp=1713923210~hmac=a47671f5b737c2992bf13db9aa4ed40b8c83fccfa03118f911e74a5b1dd5d77f);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#hero3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
