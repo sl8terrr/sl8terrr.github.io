@@ -38,10 +38,6 @@
     padding: 0;
   }
   
-  #nav ul li {
-    margin-left: 20px;
-  }
-  
   #nav ul li:first-child {
     margin-left: 0;
   }
@@ -49,6 +45,7 @@
   #nav ul li a {
     text-decoration: none;
     color: #000000;
+    margin-left: 12px;
   }
   .home {
     background-color: #fff;
