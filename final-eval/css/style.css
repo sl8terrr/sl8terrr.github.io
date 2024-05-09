@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#header{
+    text-align: center;
+}
+#header p{
+    font-size: 16px;
+}
+#header h1{
+    font-size: 32px;
+}
+#header h4{
+    font-size: 17px;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+}
+
+#col1, #col2, #col3 {
+    text-align: center;
+    width: calc(33.33% - 20px);
+    padding: 10px;
+}
+
+#col1 img, #col3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#col1 p, #col3 p {
+    font-size: 18px;
+}
+
+#col1 h4, #col3 h4 {
+    font-size: 28px;
+}
+
+#col2 h2 {
+    font-size: 48px;
+}
+
+#bottom {
+    text-align: center;
+    margin: 20px;
+}
+
+#ctab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#cta, #cta2 {
+    border: solid red 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#cta:hover, #cta2:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Media query for screens with a minimum width of 480px */
+@media screen and (min-width: 480px) {
+    #col1, #col2, #col3 {
+        width: calc(33.33% - 20px);
+    }
+}
