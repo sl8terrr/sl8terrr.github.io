@@ -56,7 +56,7 @@
   }
   .hero {
     text-align: center;
-    background-image: url("https://img.freepik.com/free-photo/california-vineyards-santa-barbara_181624-7592.jpg?t=st=1715126732~exp=1715130332~hmac=9c8a45886040b57500aa8bc4c6664d4fd3279ee0315c8296b2bad426236e648e&w=1380");
+    background-image: url("../images/vine.jpg");
     background-size: cover;
     background-position: center;
     padding: 100px 100px;
@@ -99,10 +99,7 @@
   }
   
   #featured-media{
-   width: 1025px;
-  }
-  .menu-media{
-    width: 250px;
+   width: 1170px;
   }
   .menu-items {
     display: flex;
@@ -136,7 +133,7 @@
         bottom: 0;
   }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     .container {
       padding: 0 10px;
     }
