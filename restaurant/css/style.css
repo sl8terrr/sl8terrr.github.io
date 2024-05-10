@@ -118,6 +118,9 @@
   .featured-item .info {
     text-align: center;
   }
+  .info p{
+    padding: 7px;
+  }
   
 
   #footer {
